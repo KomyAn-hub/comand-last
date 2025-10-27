@@ -199,7 +199,6 @@ body {
     box-shadow: 0 0 25px rgba(186, 85, 211, 0.6);
 }
 
-/* Сторінка новин */
 .page-header {
     text-align: center;
     padding: 2rem 0 3rem;
@@ -217,7 +216,6 @@ body {
     color: #a0b4d0;
 }
 
-/* Фільтри (Flexbox) */
 .filters-section {
     margin-bottom: 2rem;
 }
@@ -344,7 +342,6 @@ body {
     color: #a0b4d0;
 }
 
-/* Сторінка Про нас */
 .about-hero {
     text-align: center;
     padding: 3rem 0;
@@ -595,19 +592,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navigation {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .nav-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .content-wrapper {
-        flex-direction: column;
-    }
     
     .sidebar {
         width: 100%;
@@ -666,15 +650,6 @@ body {
         padding: 0 15px;
     }
     
-    .logo {
-        font-size: 1.5rem;
-    }
-    
-    .nav-menu {
-        gap: 1rem;
-        font-size: 0.9rem;
-    }
-    
     .hero-title,
     .page-title {
         font-size: 1.5rem;
@@ -706,4 +681,5 @@ body {
     .stat-number {
         font-size: 2rem;
     }
+
 }
