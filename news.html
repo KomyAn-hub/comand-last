@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Головна</title>
+    <title>Новини</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -40,114 +40,116 @@
 
     <main class="main-content">
         <div class="container">
-            <section class="hero-section">
-                <h2 class="hero-title">Актуальні новини України</h2>
-                <p class="hero-subtitle">Будьте в курсі найважливіших подій</p>
+            <section class="page-header">
+                <h2 class="page-title">Всі новини</h2>
+                <p class="page-description">Актуальна інформація з різних сфер життя</p>
             </section>
 
-            <div class="content-wrapper">
-                <section class="news-grid">
-                    <article class="news-card featured">
-                        <div class="news-image">📰</div>
-                        <div class="news-content">
+            <section class="filters-section">
+                <div class="filter-buttons">
+                    <button class="filter-btn active">Всі</button>
+                    <button class="filter-btn">Технології</button>
+                    <button class="filter-btn">Економіка</button>
+                    <button class="filter-btn">Культура</button>
+                    <button class="filter-btn">Спорт</button>
+                </div>
+            </section>
+
+            <section class="news-list">
+                <article class="news-item">
+                    <div class="news-item-icon">🚀</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
                             <span class="news-category">Технології</span>
-                            <h3 class="news-title">Нові технології в Україні 2025</h3>
-                            <p class="news-excerpt">Український стартап представив революційну розробку в галузі
-                                штучного інтелекту</p>
-                            <time class="news-date">27 жовтня 2025</time>
+                            <time class="news-date">27.10.2025</time>
                         </div>
-                    </article>
+                        <h3 class="news-item-title">Запуск нового супутника зв'язку</h3>
+                        <p class="news-item-text">Україна успішно запустила власний супутник для покращення
+                            телекомунікаційної інфраструктури. Це великий крок у розвитку космічної галузі країни.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
+                    </div>
+                </article>
 
-                    <article class="news-card">
-                        <div class="news-image">🌍</div>
-                        <div class="news-content">
-                            <span class="news-category">Світ</span>
-                            <h3 class="news-title">Міжнародні події</h3>
-                            <p class="news-excerpt">Україна підписала важливу угоду з країнами ЄС</p>
-                            <time class="news-date">26 жовтня 2025</time>
-                        </div>
-                    </article>
-
-                    <article class="news-card">
-                        <div class="news-image">💼</div>
-                        <div class="news-content">
+                <article class="news-item">
+                    <div class="news-item-icon">💰</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
                             <span class="news-category">Економіка</span>
-                            <h3 class="news-title">Економічний прогрес</h3>
-                            <p class="news-excerpt">Зростання ВВП України перевищило прогнози експертів</p>
-                            <time class="news-date">25 жовтня 2025</time>
+                            <time class="news-date">26.10.2025</time>
                         </div>
-                    </article>
+                        <h3 class="news-item-title">Інвестиції в українські стартапи</h3>
+                        <p class="news-item-text">Міжнародні фонди інвестували понад 500 мільйонів доларів у розвиток
+                            українських технологічних компаній цього року.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
+                    </div>
+                </article>
 
-                    <article class="news-card">
-                        <div class="news-image">🎨</div>
-                        <div class="news-content">
+                <article class="news-item">
+                    <div class="news-item-icon">🎭</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
                             <span class="news-category">Культура</span>
-                            <h3 class="news-title">Культурні події</h3>
-                            <p class="news-excerpt">Український фільм отримав міжнародну премію</p>
-                            <time class="news-date">24 жовтня 2025</time>
+                            <time class="news-date">25.10.2025</time>
                         </div>
-                    </article>
+                        <h3 class="news-item-title">Міжнародний театральний фестиваль</h3>
+                        <p class="news-item-text">У Києві стартував щорічний міжнародний театральний фестиваль з участю
+                            труп з 30 країн світу.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
+                    </div>
+                </article>
 
-                    <article class="news-card">
-                        <div class="news-image">⚽</div>
-                        <div class="news-content">
+                <article class="news-item">
+                    <div class="news-item-icon">🏆</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
                             <span class="news-category">Спорт</span>
-                            <h3 class="news-title">Спортивні досягнення</h3>
-                            <p class="news-excerpt">Українські спортсмени встановили новий рекорд</p>
-                            <time class="news-date">23 жовтня 2025</time>
+                            <time class="news-date">24.10.2025</time>
                         </div>
-                    </article>
+                        <h3 class="news-item-title">Перемога українських спортсменів</h3>
+                        <p class="news-item-text">Українська збірна виграла золоті медалі на міжнародних змаганнях з
+                            легкої атлетики.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
+                    </div>
+                </article>
 
-                    <article class="news-card">
-                        <div class="news-image">🔬</div>
-                        <div class="news-content">
-                            <span class="news-category">Наука</span>
-                            <h3 class="news-title">Наукові відкриття</h3>
-                            <p class="news-excerpt">Українські вчені зробили важливе відкриття</p>
-                            <time class="news-date">22 жовтня 2025</time>
+                <article class="news-item">
+                    <div class="news-item-icon">🌿</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
+                            <span class="news-category">Екологія</span>
+                            <time class="news-date">23.10.2025</time>
                         </div>
-                    </article>
-                </section>
-
-                <aside class="sidebar">
-                    <div class="sidebar-section">
-                        <h3 class="sidebar-title">Популярні теми</h3>
-                        <ul class="popular-topics">
-                            <li class="topic-item">
-                                <span class="topic-icon">🔥</span>
-                                <span class="topic-name">Технології майбутнього</span>
-                            </li>
-                            <li class="topic-item">
-                                <span class="topic-icon">💡</span>
-                                <span class="topic-name">Інновації в освіті</span>
-                            </li>
-                            <li class="topic-item">
-                                <span class="topic-icon">🌱</span>
-                                <span class="topic-name">Екологія та довкілля</span>
-                            </li>
-                            <li class="topic-item">
-                                <span class="topic-icon">🎯</span>
-                                <span class="topic-name">Бізнес та стартапи</span>
-                            </li>
-                            <li class="topic-item">
-                                <span class="topic-icon">🎵</span>
-                                <span class="topic-name">Музика та мистецтво</span>
-                            </li>
-                        </ul>
+                        <h3 class="news-item-title">Нова програма озеленення міст</h3>
+                        <p class="news-item-text">Уряд запустив масштабну програму з озеленення великих міст та
+                            створення екологічних парків.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
                     </div>
+                </article>
 
-                    <div class="sidebar-section">
-                        <h3 class="sidebar-title">Підписатися</h3>
-                        <form class="subscribe-form">
-                            <input type="email" placeholder="Ваш email" class="subscribe-input" required>
-                            <button type="submit" class="subscribe-button">Підписатися</button>
-                        </form>
+                <article class="news-item">
+                    <div class="news-item-icon">📚</div>
+                    <div class="news-item-content">
+                        <div class="news-item-header">
+                            <span class="news-category">Освіта</span>
+                            <time class="news-date">22.10.2025</time>
+                        </div>
+                        <h3 class="news-item-title">Реформа системи освіти</h3>
+                        <p class="news-item-text">Міністерство освіти представило нову концепцію розвитку освітньої
+                            системи з акцентом на цифрові технології.</p>
+                        <a href="#" class="read-more">Читати далі →</a>
                     </div>
-                </aside>
+                </article>
+            </section>
+
+            <div class="pagination">
+                <button class="pagination-btn">← Попередня</button>
+                <span class="pagination-info">Сторінка 1 з 10</span>
+                <button class="pagination-btn">Наступна →</button>
             </div>
         </div>
     </main>
-</body>
+
+
 
 <footer class="site-footer">
     <div class="footer-container">
@@ -234,6 +236,6 @@
 </footer>
             
 <script src="js/script.js"></script>
-
+</body>
 </html>
 
